@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: green;
+    padding: 15px;
+}
+
+.header__title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.header__nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(min-width: 768px) {
+    .header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    }
+
+    .header__nav {
+        width: 50%;
+    }
+
+
+.section {
+    background-image: url(/assets/img/mascotas-perros-gatos-conejos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.tarjeta {
+    width: 300px;
+    height: 400px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+@media(min-width: 768px){
+    .section__div{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+.tarjeta__img {
+    width: 100%;
+}
+
+.tarjeta__boton {
+    background-color: green;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 20px;
+}
+
+.tarjeta__boton:hover {
+    border: green 2px solid;
+    background-color: white;
+}
+
+.redes {
+    color: blueviolet;
+}
+
+.itf {
+    color: blue;
+}
+
+.ubicacion__title {
+    background-color: green;
+    text-align: center;
+    padding: 14px;
+}
+
+.ubicacion__mapa {
+    width: 100vw;
+}
+.colorfooter{
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+}
+
+.footer{
+    align-items: center;
+    
+    
+
+}
+
+@media (min-width: 768px){
+    .footer{
+        display: flex;
+        justify-content: space-around;
+    }
+}
