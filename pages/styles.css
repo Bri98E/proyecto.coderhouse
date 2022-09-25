@@ -28,9 +28,10 @@ a {
 .header__nav ul{
     display: flex;
     justify-content: space-between;
+    padding: 3px;
 }
 
-@media(min-width: 768px) {
+@media(min-width: 480px) {
     .header {
         display: flex;
         justify-content: space-around;
@@ -48,6 +49,16 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+@media(min-width: 765px) {
+    .section__div {
+        display: flex;
+        justify-content: space-around;
+        
+        
+    }
 }
 
 
@@ -62,14 +73,16 @@ a {
     align-items: center;
     border-radius: 20px;
 }
-@media(min-width: 768px){
-    .section__div{
-        display: flex;
-        justify-content: space-around;
+@media(min-width: 765px) {
+    .tarjeta{
+        background-color: yellowgreen;
     }
-}
+    
+    }
+
+
 .tarjeta__img {
-    width: 100%;
+    width: 80%;
 }
 
 .tarjeta__boton {
@@ -113,10 +126,11 @@ a {
     
 
 }
-
-@media (min-width: 768px){
-    .footer{
+@media(min-width: 765px) {
+    .footer {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+        align-items: center;
     }
 }
+
