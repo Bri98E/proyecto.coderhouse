@@ -12,7 +12,8 @@ ol {
 a {
     text-decoration: none;
 }
-li{
+
+li {
     color: black;
 }
 
@@ -28,7 +29,7 @@ li{
     padding: 10px;
 }
 
-.header__nav ul{
+.header__nav ul {
     display: flex;
     justify-content: space-between;
     padding: 3px;
@@ -41,27 +42,27 @@ li{
         justify-content: space-around;
         align-items: center;
     }
-    }
+}
 
-    .header__nav {
-        width: 50%;
-    }
+.header__nav {
+    width: 50%;
+}
 
 
 .section {
-    background-image: url(/assets/img/mascotas-perros-gatos-conejos.jpg);
+    background-color: darkgreen;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
 }
+
 @media(min-width: 765px) {
     .section__div {
         display: flex;
         justify-content: space-around;
-        
-        
+
+
     }
 }
 
@@ -77,12 +78,13 @@ li{
     align-items: center;
     border-radius: 20px
 }
+
 @media(min-width: 765px) {
-    .tarjeta{
+    .tarjeta {
         background-color: yellowgreen;
     }
-    
-    }
+
+}
 
 
 .tarjeta__img {
@@ -118,18 +120,20 @@ li{
 .ubicacion__mapa {
     width: 100vw;
 }
-.colorfooter{
+
+.colorfooter {
     display: flex;
     justify-content: space-around;
     background-color: green;
 }
 
-.footer{
+.footer {
     align-items: center;
-    
-    
+
+
 
 }
+
 @media(min-width: 765px) {
     .footer {
         display: flex;
@@ -137,7 +141,3 @@ li{
         align-items: center;
     }
 }
-.body{
-    background-color: chocolate;
-}
-
