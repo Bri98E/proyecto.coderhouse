@@ -1,41 +1,35 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-ul,
-ol {
+ul{
     list-style: none;
+    li{
+        color: black
+    }
 }
-
-a {
+a{
     text-decoration: none;
 }
-
-li {
-    color: black;
-}
-
-.header {
+.header{
     background-color: green;
     padding: 15px;
-}
-
-.header__title {
-    display: flex;
+    &__title{
+        display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-}
-
-.header__nav ul {
-    display: flex;
+    }
+    &__nav ul{
+        display: flex;
     justify-content: space-between;
     padding: 3px;
+    }
+    &__nav{
+        width: 50%;
+    }
 }
-
-
 @media(min-width: 480px) {
     .header {
         display: flex;
@@ -43,12 +37,6 @@ li {
         align-items: center;
     }
 }
-
-.header__nav {
-    width: 50%;
-}
-
-
 .section {
     background-color: darkgreen;
     background-position: center;
@@ -56,7 +44,6 @@ li {
     display: flex;
     justify-content: center;
 }
-
 @media(min-width: 765px) {
     .section__div {
         display: flex;
@@ -65,9 +52,7 @@ li {
 
     }
 }
-
-
-.tarjeta {
+.tarjeta{
     width: 300px;
     height: 400px;
     background-color: aliceblue;
@@ -76,33 +61,21 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 20px
-}
-
-@media(min-width: 765px) {
-    .tarjeta {
-        background-color: yellowgreen;
+    border-radius: 20px;
+    &__img{
+        width: 80%;
     }
-
-}
-
-
-.tarjeta__img {
-    width: 80%;
-}
-
-.tarjeta__boton {
-    background-color: green;
+    &__boton{
+        background-color: green;
     padding: 10px 15px;
     color: white;
     border-radius: 20px;
+    }
+    &__boton:hover{
+        border: green 2px solid;
+        background-color: white;
+    }
 }
-
-.tarjeta__boton:hover {
-    border: green 2px solid;
-    background-color: white;
-}
-
 .redes {
     color: blueviolet;
 }
@@ -110,17 +83,14 @@ li {
 .itf {
     color: blue;
 }
-
 .ubicacion__title {
     background-color: green;
     text-align: center;
     padding: 14px;
 }
-
 .ubicacion__mapa {
     width: 100vw;
 }
-
 .colorfooter {
     display: flex;
     justify-content: space-around;
