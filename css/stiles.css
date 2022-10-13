@@ -42,7 +42,7 @@ a {
   }
 }
 .section {
-  background-color: darkgreen;
+  background-image: url(/assets/img/gatos.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -67,7 +67,7 @@ a {
   border-radius: 20px;
 }
 .tarjeta__img {
-  width: 80%;
+  width: 70%;
 }
 .tarjeta__boton {
   background-color: green;
