@@ -42,7 +42,7 @@ a {
   }
 }
 .section {
-  background-image: url(/assets/img/gatos.jpg);
+  background-color: green;
   background-position: center;
   background-size: cover;
   display: flex;

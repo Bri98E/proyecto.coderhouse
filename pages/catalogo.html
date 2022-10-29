@@ -10,65 +10,111 @@
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/stiles.css">
 </head>
+
 <body>
 
-<header>
-    <p class="conteiner d-flex justify-content-center">ContactanoS - (+54)-9-1136655217</p>
-    <header class="header">
-        <div class="header__logo">
-            <h1 class="header__title">PetShopping</h1>
-        </div>
-    <div class="header__nav">
-        <nav>
-            <ul>
-                <li><a href="./sugerencias.html">sugerencias</a></li>
-                <li><a href="/pages/contactanos.html">Contacto</a></li>
-                <li><a href="./tyc.html">Terminos</a></li>
-            </ul>
+    <header class="container-fluid bg-success d-flex justify-content-center">
+        <p class="text-light mb-0 fs-5">Contactanos - (+54)-9-1136655217</p>
+    </header>
+    <main>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html"><span class="color-text text-success">PetShopping</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/pages/tyc.html">Terminos y
+                                Condiciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contactanos.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/sugerencias.html">Sugerencias</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-    </div>
-
-</header>
-<main>
-    <section class="section">
-        <div class="section__div">
-        <article class="tarjeta">
-            <h2 class="tarjeta__titulo">Rascador</h2>
-            <img src="/assets/img/rascador.jpg" alt="rascador para gatos" class="tarjeta__img">
-            <p>Rascador de tres niveles paranfelinos medianos y grandes</p>
-            <a href="" class="tarjeta__boton">comprar</a>
-        </article>
-        <article class="tarjeta">
-            <h2 class="tarjeta__titulo">Bola de estambre</h2>
-            <img src="/assets/img/boladeestambre.jpg" alt="bola de estambre" class="tarjeta__img">
-            <p>Bola de estambre de varios tamaños</p>
-            <a href="" class="tarjeta__boton">comprar</a>
-        </article>
-        <article class="tarjeta">
-            <h2 class="tarjeta__titulo">Juguete tipo raton</h2>
-            <img src="/assets/img/raton.jpg" alt="Raton de juguete" class="tarjeta__img">
-            <p>Ratón que chilla en varios colores</p>
-            <a href="" class="tarjeta__boton">comprar</a>
-        </article>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/img/mascotas-perros-gatos-conejos.jpg" class="d-block w-100"
+                        alt="perros-gatos-conejos">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/img/perrito.jpeg" class="d-block w-100" alt="perro">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/img/gatos.jpg" class="d-block w-100" alt="gatos">
+                </div>
+            </div>
         </div>
 
-    </section>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="/assets/img/arnesperro.jpg" class="card-img-top w-100" alt="arnes">
+                    <div class="card-body">
+                        <h5 class="card-title">Arnes de perro</h5>
+                        <p class="card-text">Perros chicos, medianos y grandes (colores disponibles los que se
+                            encuentran en la imagen)</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
 
-</main>
-<footer class="colorfooter">
-    <div class="footer">
-        
-        <ul>
-            <li>@PetShopp - Instagram</li>
-            <li>@PetShopp - Twitter</li>
-            <li>@PetShopp - Facebook</li>
-        </ul>
-        <ul>
-            <li><a href="./tyc.html">Terminos y Condicones</a></li>
-        </ul>
-    </div>
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="/assets/img/bañoportatilcats.jpg" class="card-img-top w-75" alt="baño para gatos">
+                    <div class="card-body">
+                        <h5 class="card-title">Baño de gatos</h5>
+                        <p class="card-text">arenero para gatos varios colores</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="/assets/img/casadeperro.jpg" class="card-img-top" alt="casa de perros">
+                    <div class="card-body">
+                        <h5 class="card-title">Casita para perros</h5>
+                        <p class="card-text">Casita para perros tamaño mediano.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="/assets/img/juegodecollarycorrea.png" class="card-img-top" alt="collar gato">
+                    <div class="card-body">
+                        <h5 class="card-title">Collar para gatos y perros</h5>
+                        <p class="card-text">Collares de varios colores</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="colorfooter">
+        <div class="footer">
+
+            <ul>
+                <li>@PetShopp - Instagram</li>
+                <li>@PetShopp - Twitter</li>
+                <li>@PetShopp - Facebook</li>
+            </ul>
+            <ul>
+                <li><a href="./tyc.html">Terminos y Condicones</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
         integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
         crossorigin="anonymous"></script>
 </body>
